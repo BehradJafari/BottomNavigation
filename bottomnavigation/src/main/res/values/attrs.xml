@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyTabItem">
+        <attr name="tab_icon" format="reference"/>
+        <attr name="tab_text" format="string"/>
+        <attr name="tab_text_color" format="color"/>
+        <attr name="unselected_tab_text_color" format="color"/>
+        <attr name="unselected_tab_icon" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="MyBottomNavigation">
+
+    </declare-styleable>
+</resources>

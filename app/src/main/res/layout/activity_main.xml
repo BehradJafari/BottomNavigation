@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/backOfSpace"
+    >
+
+    <ir.noyan.bottomnavigation.BottomNavigation
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+
+        >
+
+        <ir.noyan.bottomnavigation.TabItem
+            android:id="@+id/tab_home"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:tab_icon="@drawable/ic_newest_home_bold"
+            app:tab_text="home"
+            app:unselected_tab_icon="@drawable/ic_newest_home_default"
+            app:unselected_tab_text_color="@color/colorPrimaryDark"
+
+            />
+
+        <ir.noyan.bottomnavigation.TabItem
+            android:id="@+id/tab_message"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:tab_icon="@drawable/ic_newest_messages_bold"
+            app:tab_text="messages"
+            app:unselected_tab_icon="@drawable/ic_newest_message_default"
+            app:unselected_tab_text_color="@color/colorPrimaryDark"
+
+            />
+
+        <ir.noyan.bottomnavigation.TabItem
+            android:id="@+id/tab_profile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:tab_icon="@drawable/ic_newest_profile_bold"
+            app:tab_text="profile"
+            app:unselected_tab_icon="@drawable/ic_newest_profile_default"
+            app:unselected_tab_text_color="@color/colorPrimaryDark"
+
+            />
+
+    </ir.noyan.bottomnavigation.BottomNavigation>
+</RelativeLayout>
